@@ -1,4 +1,4 @@
-#PyPing2
+#PyPing2 main module
 #By awesomelewis2007
 
 import requests
