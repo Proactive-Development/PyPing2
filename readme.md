@@ -1,4 +1,5 @@
 # PyPing2
+<img src="https://img.icons8.com/fluency/48/000000/data-in-both-directions.png"/><img src="https://img.icons8.com/fluency/50/000000/server.png"/>
 
 An easy to use pinging tool
 ## What is PyPing2
