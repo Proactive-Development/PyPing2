@@ -1,10 +1,17 @@
 #PyPing2 main module
-#By awesomelewis2007
 
 import requests
 import time
 import sys
 def ping(ip):
+    """ Pings an ip with a HTTP GET request and returns the ping time in seconds.
+
+    Args:
+        ip (str):  domain name or an ip address.
+
+    Returns:
+        _type_: ping_time (float) , HTTP code (int)
+    """
     if "https://" in ip:
         pass
     else:
@@ -16,6 +23,14 @@ def ping(ip):
     code = request.status_code
     return pingtime,code
 def multiping(ips):
+    """ Pings multiple ips with a HTTP GET request and returns the ping time in seconds.
+
+    Args:
+        ips (list):  domain name or an ip address.
+    
+    Returns:
+        _type_: ping_times (list) , HTTP codes (list)
+    """
     pingtimes = []
     codes = []
     for i in ips:

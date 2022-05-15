@@ -5,9 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='pyping2',
-    url='https://github.com/awesomelewis2007/PyPing2/',
-    author='Lewis Evans',
-    author_email='awesomelewis2007@gmail.com',
+    url='https://github.com/Proactive-Development/PyPing2',
     packages=['pyping2'],
     install_requires=['requests'],
     version="0.1.1",
