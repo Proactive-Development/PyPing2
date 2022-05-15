@@ -1,7 +1,7 @@
 # PyPing2
 <img src="https://img.icons8.com/fluency/48/000000/data-in-both-directions.png"/><img src="https://img.icons8.com/fluency/50/000000/server.png"/>
 
-An easy to use pinging tool
+An easy to use pinging tool using http requests
 ## What is PyPing2
 PyPing2 is a ping tool that uses the requests module to see how long it takes to send a request to a webpage
 
